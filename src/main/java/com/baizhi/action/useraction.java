@@ -15,7 +15,7 @@ import java.util.List;
 public class useraction {
     @Autowired
     private userservice userservice;
-
+    //sdasdsadsadasdasdasdasdsadas
     @RequestMapping("/insert")
     public String insert(user user) throws Exception {
         userservice.insert(user);
